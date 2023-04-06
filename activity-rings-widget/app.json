@@ -14,6 +14,9 @@
   },
   "permissions": [
     "data:os.device.info",
+    "data:user.hd.stand",
+    "data:user.hd.step",
+    "data:user.hd.calorie",
     "device:os.local_storage"
   ],
   "runtime": {
@@ -48,7 +51,7 @@
         "secondary-widget": {
           "widgets": [
             {
-              "path": "secondary-widget/index",
+              "path": "secondary-widget/widget",
               "icon": "icon.png",
               "name": "Activity Rings",
               "runtime": {
